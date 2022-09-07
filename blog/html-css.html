@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technical Blog - CSS Concepts</title>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+  </head>
+ 
+ 
+  <body class="style">
+
+
+    <h1>  Display Inline vs Inline Blocks! </h1>
+    <h2>What is Display Property ? </h2>
+   <div><p>The display property is one of the most important features in CSS.This property specifies the display behavior of an element, or we can say it controls the layout of an element (so basically how an element will look its dependents on display property ) There can be other values related to this property in CSS. <strong>“Inline”</strong> and <strong>“Inline-Block''</strong> are two such values.
+   </p></div>
+    <h2> Display: Inline </h2>
+    
+  <div><p>Just like its name “inline”, this feature will display en elements in the same line. It does not start with a new line.They don't accept width or height properties and top-bottom margin. they  take only as much space as they need so if we set any width and height value,they will not have any effect.
+    Here are a few elements that have a default inline property:
+    </p></div>
+    <ul>
+      <li> <code>&lta&gt</code> </li>
+       <li> <code>&ltlabel&gt</code> </li>
+         <li> <code>&ltspan&gt</code> </li>
+          
+    </ul>
+    
+    <h2> Display: Inline-Block </h2>
+  <div><p>As we can understand from its name, display: inline-block will display both the characteristics of inline and block-level elements.   Inline-block is essentially the same thing as inline, except that we can set height and width values.display:inline-block does not add a   line-break after the element. So, the element can sit next to other elements.
+
+    Here are a few elements that have a default inline property:
+    </p></div>
+
+  <div><ul>
+      <li> <code>&ltbutton&gt</code> </li>
+        <li> <code>&ltimg&gt</code> </li>
+          <li> <code>&ltinput&gt</code> </li>
+      </ul></div>
+
+      <div><p>Let's look at the example below to illustrate the difference, I have used <a> element to explain the concept. I have defined two classes “class a” which is inline and “class b” which is an inline block.<br>
+<br>
+      <strong><em>Note:</strong> here both classes have same properties, except for the display and background color.</em>
+     </p></div>
+
+     
+
+
+     <div class="ss-container">
+      <h2>HTML:</h2>
+          <div class="ss-card-4 image-padding" style="width:75%">
+        <img src="../images/sprint2-blog1/html.png" alt="html-code-snapshot" style="width:100%">
+      </div>
+    </div>
+    <br><br>
+     <h2> CSS:</h2>
+     
+     <div class="ss-container"  >
+      <div class="ss-card-4 image-padding" style="width:29%">
+    <img src="../images/sprint2-blog1/css.png" alt="css-code-snapshot" >
+  </div>
+</div>
+<br><br>
+   <div><p>
+      Below is the output in browser, since the “<a>” element is inline in “class a”, the paragraph correctly renders as a single, unbroken text flow, and does not honor width, height and top margin properties.
+      </p></div>
+      <div class="ss-container" style="width:75%">
+            <div class="ss-card-4 image-padding" style="width:75%">
+          <img src="../images/sprint2-blog1/output1.png" alt="output1-snapshot" style="width:100%">
+        </div>
+      </div>
+      <br><br>
+
+   <div><p> Now for “class b” width, height and top margin is honored since it is an “inline-block".</p></div>
+   <div class="ss-container" style="width:75%">
+    <div class="ss-card-4 image-padding" style="width:75%">
+  <img src="../images/sprint2-blog1/output2.png" alt="output2-snapshot" style="width:100%">
+</div>
+</div>
+</body>
+</html>
