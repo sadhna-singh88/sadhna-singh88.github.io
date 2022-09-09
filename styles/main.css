@@ -1,3 +1,18 @@
+
+@media screen and (min-width: 100px) {
+  h2,font {
+     color: rgb(9, 9, 14);
+     
+   }
+ }
+ 
+ @media screen and (max-width: 300px) {
+ h2,font {
+    color: rgba(101, 8, 8, 0.378);
+     
+   }
+ }
+ 
 .style {
   background-color: rgba(166, 36, 4, 0.8);
   font-size: 1rem;
