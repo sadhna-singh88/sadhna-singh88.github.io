@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript-Dom</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    </head>
+
+<body class="style">
+      
+<h1 class="heading">Javascript Fundamentals</h1>
+
+<h2 class="font">An analogy to describe JavaScript and its relationship to HTML and CSS.</h2>
+
+<p>Javascript, CSS and HTML, these three languages ​​are the foundation of any website. HTML forms the structure of the website. CSS is a style sheet language that is used in the presentation of HTML elements or to improve a website in a modern or pleasant look. Javascript is a scripting and programming language that can be used to implement complex, dynamic features per web page. It allows web pages to be made interactive.<br>
+<p>As an analogy for these three, lets look at this in this way - HTML is a structural language that builds the structure of the website, just like building a car by first setting a basic structure where different types of parts are installed like door, window, glass, mirror, wheels, engine etc. By the way, Heading, Paragraph, Image, and Text are the parts that make basic HTML structure of any website.<br></p>
+<p>Now let's talk about the styling of the car. In designing a car or giving it a beautiful color, a designer follows its basic structure and designs how beautiful it is to look, like what should be the color of the car, what size should be the doors of the car, so that the car looks attractive or the customer like the car. CSS is the  language which is taking care of styling work of the website, it has the reputation of furnishing the look of the website through font color, background color or border styling, animations etc.<br></p>
+<p>Now, lets ask how all these parts interect and work togather? The answer is ECU (electronic control unit) unit of the car, it looks at all signals from sensors and take decisions to run optimally, here ECU works like javascript.  If we want our website look at user inputs and control changes and make decisions on user inputs, then we need to use javascript.</p>
+
+<h2>  Explain control flow and loops using an example process from everyday life. </h2>
+
+<p>An example of a control flow in everyday real life can be thought of as the process of cooking food. We do many steps in one sequence and make many decisions. For example, when we decide what we want to eat, Then we decide what ingredients will be used in this recipe and from where to get them and then we follow the recipe with those ingredients, this is the same way as javascript code will make decisions.
+</p>
+<p>Loop is very useful in Javascript. We use Loop to execute the code repeatedly in the same line and then execute the code until one of the conditions is True. </p>
+<p>Assume that if we have to chop a bag of vegetable like a carrot, we will chop all the carrots, one by one, till no carrots are left. This is the same as how a for loop will iterate an array and execute statements on each object.  </p>
+<h2> What is the DOM ?  </h2>
+<p>The Document Object Model (DOM) provides the means to interact with objects in an HTML document. We modify HTML elements using DOM to make them programmatically interactive. The DOM is an application programming interface for HTML documents. The DOM provides a platform where programming languages ​​can talk to HTML documents. The DOM refers to how your HTML documents are read by the browser. It allows the JavaScript language to manipulate, create and style your website. The DOM allows programs and scripts to dynamically access and updates a document's content, structure, and style. The DOM allows individual elements on your page to be treated as objects, which can then be manipulated using JavaScript.When an HTML file is loaded into the browser, JavaScript cannot directly interpret the HTML document. Therefore a related document DOM is created.</p><br>
+
+<div class="ss-card-4 image-padding" style="width:45%">
+<img src="../images/sprint2-blog1/dom-pic.png" alt="dom-snapshot" style= width:100% > </div><br>
+<br>
+
+<p><em>Some of the major tasks that can be manipulated in the document using JavaScript are as follows:</em>
+  <p><ol>
+    <li> You can add a new element to the document.</li>
+    <li> Can remove the existing element from the document.</li>
+    <li> Can modify the text of Elements.</li>
+    <li> You can add the attributes of the elements or modify their values.</li>
+    <li> You can apply the CSS style to all the elements.</li>
+    <li> All types of events (like click, hover, etc. ) can be easily handled in the document.</li>
+    <li> New Event can also be added for any kind of Element.</li> 
+  </ol> </p>           
+</p>
+
+<h2> Explain the difference between accessing data from arrays and objects.</h2>
+
+<p> Array in JavaScript is used to store multiple different types of values like numbers, strings and objects themselfs. While defining Array in JavaScript, there is no need to define a data type.<br>
+   <em>Array can be defined/declared in two ways.</em><br>
+ <ol>  
+  <li> Using Brackets [ ] .</li>
+  <li> Using Array Object.</li>
+</ol> 
+ <div class="ss-card-4 image-padding" style="width:45%">
+<img src="../images/sprint2-blog1/array-pic.png" alt="array-snapshot" style="width:100%"></div> 
+
+   <br>
+
+  <p>Array in JavaScript associates the stored values ​​as an index number which starts at 0. We can access array values ​​by using indexes, for example:</p>
+   <br>
+   
+   
+   <div class="ss-card-4 image-padding" style="width:45%">
+  <img src="../images/sprint2-blog1/array-pic-2.png" alt="array-snapshot" style="width:100%"></div>
+  <br>
+<br>
+
+<p>
+  Objects: Properties are values ​​that are associated with the object. 
+  An object stores various keyed collections under a single variable name. A JavaScript Object is a collection of unordered properties. Object properties in JavaScript are defined in the "key: value pair". And an object can have many properties according to the need.<br>
+
+  We can access Object properties & methods in two ways -<br>
+
+<ol>  
+  <li> object.property name;</li>
+  <li> object['proprtyName'];</li>
+</ol>
+</p>
+
+<h2> Explain what functions are and why they are helpful.</h2>
+
+<p> The function is a reusable piece of code or block of code that performs a specific task. Once defined, we can use/call them any number of times in the script. Apart from this, there are a lot of predefined useful functions in JavaScript which we call Built-In Functions. A function is an object in JavaScript.<br>
+However, JavaScript provides us with this facility that the user can define his functions, which are called User defined functions. No function automatically runs while the web page is loading, unless we call/invoke it in the code.<br>
+A function declaration is also called function definition or function statement, function keyword is used to define a function in JavaScript.<br>
+<br>
+<div class="ss-card-4 image-padding" style="width:37%">
+ <img src="../images/sprint2-blog1/funtion.png" alt="funtion-snapshot" style="width:100%"></div>
+
+ <br>
+ <br> 
+ 
+<strong> JS Function Advantages:</strong><br>
+<ol>
+<li>Code Reusability: The biggest advantage of using functions is that we can reuse the code. Once the function is defined for the same processing, we can use it anywhere and any number of times.</li>
+<li>Less Code: Since we use functions for the same code, the length of the program is reduced.</li>
+<li> Reduce Coding Time: Using Function reduces coding time, which is important for any developer.</li>
+<li>Easy To Understand: It becomes easy to understand the code.</li>
+</ol> 
+
+
+
+
+<button class="block" onclick="window.location.href='../index.html';">HOME</button>
+    </body>
+</html>

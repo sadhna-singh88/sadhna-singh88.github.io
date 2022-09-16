@@ -80,7 +80,7 @@ body {
 
   
 }
-p {
+p, ol {
 color: aliceblue;
 }
 .block {
