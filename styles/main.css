@@ -49,7 +49,6 @@ body,h1 {font-family: "Raleway", sans-serif}
       }
      
       ul {
-        list-style-type: none;
         overflow: hidden;
       }
 
@@ -80,7 +79,7 @@ body {
 
   
 }
-p, ol {
+p, ol, ul {
 color: aliceblue;
 }
 .block {
